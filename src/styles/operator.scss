@@ -1,0 +1,13 @@
+.episodeOp {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 0;
+    transition: opacity .25s ease-in;
+    z-index: 100;
+}
+%episodeOp {
+    &:hover .episodeOp {
+        opacity: 1;
+    }
+}
